@@ -1,0 +1,306 @@
+<html>
+
+<head>
+    <link href="http://fonts.cdnfonts.com/css/google-sans" rel="stylesheet">
+</head>
+
+<head>
+    <style>
+        /* RESET STYLES */
+        * {
+            margin: 0px;
+            padding: 0px;
+            color: white;
+            font-family: 'Product Sans Light', sans-serif;
+        }
+
+        h1 {
+            display: block;
+            margin: 0;
+        }
+
+        img {
+            -ms-interpolation-mode: bicubic;
+        }
+
+
+        img {
+            border: 0;
+            height: auto;
+            line-height: 100%;
+            outline: none;
+            text-decoration: none;
+        }
+
+        table {
+            border-collapse: collapse !important;
+        }
+
+        body {
+            height: 100% !important;
+            margin: 0 !important;
+            padding: 0 !important;
+            width: 100% !important;
+        }
+
+
+        /* END RESET STYLES */
+
+        :root {
+            --background: #23022d;
+            --primary: #EB4714;
+            --secondary: #EB47EA;
+            --primary_rgb: 235, 71, 20;
+            --secondary_rgb: 235, 71, 234;
+            --base_gra: linear-gradient(45deg, rgba(var(--primary_rgb), 1) 0%, rgba(var(--secondary_rgb), 1) 100%);
+            --phone_text: #df56df;
+        }
+
+        #card {
+            height: 180px;
+            width: 420px;
+            background: var(--background);
+            border: solid 1px var(--primary);
+            border-radius: 10px;
+        }
+
+        #avatar_round {
+            height: 110px;
+            width: 110px;
+            background: linear-gradient(45deg, rgba(var(--primary_rgb), 0.6) 0%, rgba(var(--secondary_rgb), 0.6) 100%);
+            border-radius: 55px;
+        }
+
+
+        #avatar {
+            border: solid 1px var(--primary);
+            height: 90px;
+            width: 90px;
+            background: url('https://scontent.fsgn8-2.fna.fbcdn.net/v/t1.15752-9/248450650_569478204311324_3968558245909951663_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=ae9488&_nc_ohc=n79E8OdadKoAX8SEXYk&_nc_ht=scontent.fsgn8-2.fna&oh=03_AVLudF1Lpt704O-HqjUwXyOX26_hW3EBcLpszYx14oCOPg&oe=633155BE');
+            background-size: cover;
+            border-radius: 45px;
+        }
+
+        #break_line {
+            width: 1px;
+            border-radius: 2px;
+            height: 140px;
+            background: var(--base_gra);
+        }
+
+        #full_name {
+            color: white;
+            font-size: larger;
+            font-weight: bold;
+        }
+
+        #stu_id {
+            font-weight: bold;
+        }
+
+        #uni {
+            font-size: small;
+        }
+
+        #table_lv1 {
+            height: 180px;
+            width: 420px;
+        }
+
+
+        #phone_number {
+            color: var(--phone_text);
+        }
+
+        .space_info {
+            width: 30px;
+        }
+
+        #facebook_icon {
+            height: 34px;
+            width: 34px;
+            /* background: url("https://drive.google.com/uc?id=1-DGKeP96WCie3KX2XBi_wPLv5tTSJeLE"); */
+            background: url('./v1_src/facebook.png');
+            background-size: cover;
+        }
+
+
+        #github_icon {
+            height: 34px;
+            width: 34px;
+            background: url('./v1_src/github.png');
+            background-size: cover;
+        }
+
+        #telegram_icon {
+            height: 34px;
+            width: 34px;
+            background: url("./v1_src/telegram.png");
+            background-size: cover;
+        }
+
+        #linked_icon {
+            height: 34px;
+            width: 34px;
+            background: url("./v1_src/linkedin.png");
+            background-size: cover;
+        }
+
+        #phone_icon {
+            height: 15px;
+            width: 15px;
+            background: url('./v1_src/phone.png');
+            background-size: cover;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="wrapper" id="card">
+        <table id="table_lv1">
+            <tr>
+                <td rowspan="2">
+                    <table>
+                        <tr>
+                            <td style="width: 15px;"></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td style="width:110px;height:110px;">
+                                <div id="avatar_round">
+                                    <table style="width:110px;height:110px;">
+                                        <tr>
+                                            <td style="width:10px"></td>
+                                            <td></td>
+                                            <td></td>
+                                        </tr>
+                                        <tr>
+                                            <td></td>
+                                            <td>
+                                                <div id="avatar">
+                                                </div>
+                                            </td>
+                                            <td></td>
+                                        </tr>
+                                        <tr>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td style="width:10px">
+                    <table style="width:10px">
+                        <tr>
+                            <td></td>
+                            <td id="break_line" style="height:140px"></td>
+                            <td></td>
+                        </tr>
+                    </table>
+                </td>
+                <td style="width: 270px">
+                    <table style="width: 270px;height: 180px;">
+                        <tr>
+                            <td class="space_info" style="height: 10px;"></td>
+                        </tr>
+                        <tr>
+                            <td class="space_info"></td>
+                            <td style="height: 20px; font-weight:600;font-size:larger;">Nguyễn Bá Cử
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="space_info" style="height: 3px;"></td>
+                        </tr>
+                        <tr>
+                            <td class="space_info"></td>
+                            <td style="height: 10px;font-size:12px">K204131817</td>
+                        </tr>
+                        <tr>
+                            <td class="space_info" style="height: 8px;"></td>
+                        </tr>
+                        <tr>
+                            <td class="space_info"></td>
+                            <td style="height: 34px;">
+                                <table>
+                                    <tr>
+                                        <td>
+                                            <a href="https://www.facebook.com/Ngcu.Handsome/"
+                                                style="height: 34px;width: 34px;">
+                                                <div id="facebook_icon"></div>
+                                            </a>
+                                        </td>
+                                        <td style="width:10px"></td>
+                                        <td>
+                                            <a href="https://github.com/NgcuHandsome" style="height: 34px;width: 34px;">
+                                                <div id="github_icon"></div>
+                                            </a>
+                                        </td>
+                                        <td style="width:10px"></td>
+                                        <td id="telegram_icon">
+                                            <a href="https://t.me/NgcuHandsome" style="height: 34px;width: 34px;">
+                                                <div id="telegram_icon"></div>
+                                            </a>
+                                        </td>
+                                        <td style="width:10px"></td>
+                                        <td id="linked_icon">
+                                            <a href="https://t.me/NgcuHandsome" style="height: 34px;width: 34px;">
+                                                <div id="linked_icon"></div>
+                                            </a>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="space_info" style="height: 10px;"></td>
+                        </tr>
+                        <tr>
+                            <td class="space_info"></td>
+                            <td style="height: 20px">
+                                <table>
+                                    <tr>
+                                        <td style="width:15px">
+                                            <a href="tel:0981916554" style="width:15px;height: 15px;">
+                                                <div id="phone_icon"></div>
+                                            </a>
+                                        </td>
+                                        <td style="width:8px">
+                                        </td>
+                                        <td>
+                                            <a id="phone_number" style="font-size: small;" href="tel:0981916554">
+                                                0981916554
+                                            </a>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="space_info" style="height: 4px;"></td>
+                        </tr>
+                        <tr>
+                            <td class="space_info"></td>
+                            <td id="majors" style="font-size: 14px;height: 14px;">Economic Mathematics
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="space_info" style="height: 1px;"></td>
+                        </tr>
+                        <tr>
+                            <td class="space_info"></td>
+                            <td style="font-size: 12px;height: 12px;">University of Economics and Law</td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+    </div>
+</body>
+
+</html>
