@@ -1,0 +1,285 @@
+<html>
+
+<head>
+    <link href="http://fonts.cdnfonts.com/css/google-sans" rel="stylesheet">
+</head>
+
+<head>
+    <style>
+        /* RESET STYLES */
+        * {
+            margin: 0px;
+            padding: 0px;
+            color: white;
+        }
+
+        h1 {
+            display: block;
+            margin: 0;
+        }
+
+        img {
+            -ms-interpolation-mode: bicubic;
+        }
+
+
+        img {
+            border: 0;
+            height: auto;
+            line-height: 100%;
+            outline: none;
+            text-decoration: none;
+        }
+
+        table {
+            border-collapse: collapse !important;
+        }
+
+        body {
+            height: 100% !important;
+            margin: 0 !important;
+            padding: 0 !important;
+            width: 100% !important;
+        }
+
+        /* END RESET STYLES */
+
+
+        #card {
+            height: 180px;
+            width: 420px;
+            background: #091135;
+            border: solid 1px #8EEDA0;
+            border-radius: 10px;
+        }
+
+        #avatar_round {
+            height: 110px;
+            width: 110px;
+            background: linear-gradient(45deg, rgba(142, 237, 160, 0.6) 0%, rgba(111, 255, 233, 0.6) 100%);
+            border-radius: 55px;
+        }
+
+
+        #avatar {
+            border: solid 1px #8EEDA0;
+            height: 90px;
+            width: 90px;
+            background: url('https://scontent.fsgn8-2.fna.fbcdn.net/v/t1.15752-9/248450650_569478204311324_3968558245909951663_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=ae9488&_nc_ohc=n79E8OdadKoAX8SEXYk&_nc_ht=scontent.fsgn8-2.fna&oh=03_AVLudF1Lpt704O-HqjUwXyOX26_hW3EBcLpszYx14oCOPg&oe=633155BE');
+            background-size: cover;
+            border-radius: 45px;
+        }
+
+        #break_line {
+            width: 1px;
+            border-radius: 2px;
+            height: 140px;
+            background: linear-gradient(225deg, rgba(142, 237, 160, 1) 0%, rgb(48, 255, 224) 100%);
+        }
+
+        #full_name {
+            color: white;
+            font-size: larger;
+            font-weight: bold;
+        }
+
+        #stu_id {
+            font-weight: bold;
+        }
+
+        #major {
+            font-family: "Arial Narrow";
+        }
+
+        #uni {
+            font-size: small;
+        }
+
+
+
+        #table_lv1 {
+            height: 180px;
+            width: 420px;
+        }
+
+
+        .space_info {
+            width: 30px;
+        }
+
+        #facebook_icon {
+            height: 34px;
+            width: 34px;
+            /* background: url("https://drive.google.com/uc?id=1-DGKeP96WCie3KX2XBi_wPLv5tTSJeLE"); */
+            background: url('https://scontent.fvca1-3.fna.fbcdn.net/v/t1.15752-9/300235947_612953967216563_3745275258640362809_n.png?stp=cp0_dst-png&_nc_cat=111&ccb=1-7&_nc_sid=ae9488&_nc_ohc=iBPgPVf4DW0AX_HB-m8&_nc_ht=scontent.fvca1-3.fna&oh=03_AVKnUOvFwwA-_GHshCd2-YPxIpY90XGScBVniwzfwxFJQQ&oe=6333F236');
+            background-size: cover;
+        }
+
+
+        #github_icon {
+            height: 34px;
+            width: 34px;
+            background: url('https://scontent.fsgn13-2.fna.fbcdn.net/v/t1.15752-9/300410953_741020473624329_2090425601849846148_n.png?stp=cp0_dst-png&_nc_cat=109&ccb=1-7&_nc_sid=ae9488&_nc_ohc=Iffr2BmFQ_UAX8gtTVS&_nc_ht=scontent.fsgn13-2.fna&oh=03_AVIzHQ6NT6coq5MuBNeUuodbhj52n8uNCzW7TyoAn-8fFg&oe=63350921');
+            background-size: cover;
+        }
+
+        #telegram_icon {
+            height: 34px;
+            width: 34px;
+            background: url("https://scontent.fsgn13-3.fna.fbcdn.net/v/t1.15752-9/294932526_406056408334498_712974309012577759_n.png?stp=cp0_dst-png&_nc_cat=108&ccb=1-7&_nc_sid=ae9488&_nc_ohc=q41-OCWn4PwAX9TTl3q&_nc_ht=scontent.fsgn13-3.fna&oh=03_AVJCNnv6LvwBxKR8phhfURgjkV8K5pkbtGqTVeSPahgjHw&oe=6331726B");
+            background-size: cover;
+        }
+
+        #phone_icon {
+            height: 15px;
+            width: 15px;
+            background: url('https://scontent.fsgn8-2.fna.fbcdn.net/v/t1.15752-9/298958821_462071725803074_6272782777785346528_n.png?stp=cp0_dst-png&_nc_cat=100&ccb=1-7&_nc_sid=ae9488&_nc_ohc=5QI4i65GJbUAX-LTBd5&_nc_ht=scontent.fsgn8-2.fna&oh=03_AVI71YtgnZDyRWbvGdU72utz_M9Cqw1kjjLti0DjA9er1Q&oe=633360BF');
+            background-size: cover;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="wrapper" id="card">
+        <table id="table_lv1">
+            <tr>
+                <td rowspan="2">
+                    <table>
+                        <tr>
+                            <td style="width: 15px;"></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td style="width:110px;height:110px;">
+                                <div id="avatar_round">
+                                    <table style="width:110px;height:110px;">
+                                        <tr>
+                                            <td style="width:10px"></td>
+                                            <td></td>
+                                            <td></td>
+                                        </tr>
+                                        <tr>
+                                            <td></td>
+                                            <td>
+                                                <div id="avatar">
+                                                </div>
+                                            </td>
+                                            <td></td>
+                                        </tr>
+                                        <tr>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td style="width:10px">
+                    <table style="width:10px">
+                        <tr>
+                            <td></td>
+                            <td id="break_line" style="height:140px"></td>
+                            <td></td>
+                        </tr>
+                    </table>
+                </td>
+                <td style="width: 270px">
+                    <table style="width: 270px;height: 180px;">
+                        <tr>
+                            <td class="space_info" style="height: 10px;"></td>
+                        </tr>
+                        <tr>
+                            <td class="space_info"></td>
+                            <td style="height: 20px; font-weight:600;font-size:larger;">Nguyễn Bá Cử
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="space_info" style="height: 3px;"></td>
+                        </tr>
+                        <tr>
+                            <td class="space_info"></td>
+                            <td style="height: 10px;font-size:12px">K204131817</td>
+                        </tr>
+                        <tr>
+                            <td class="space_info" style="height: 8px;"></td>
+                        </tr>
+                        <tr>
+                            <td class="space_info"></td>
+                            <td style="height: 34px;">
+                                <table>
+                                    <tr>
+                                        <td>
+                                            <a href="https://www.facebook.com/Ngcu.Handsome/"
+                                                style="height: 34px;width: 34px;">
+                                                <div id="facebook_icon"></div>
+                                            </a>
+                                        </td>
+                                        <td style="width:10px"></td>
+                                        <td>
+                                            <a href="https://github.com/NgcuHandsome" style="height: 34px;width: 34px;">
+                                                <div id="github_icon"></div>
+                                            </a>
+                                        </td>
+                                        <td style="width:10px"></td>
+                                        <td id="telegram_icon">
+                                            <a href="https://t.me/NgcuHandsome" style="height: 34px;width: 34px;">
+                                                <div id="telegram_icon"></div>
+                                            </a>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="space_info" style="height: 10px;"></td>
+                        </tr>
+                        <tr>
+                            <td class="space_info"></td>
+                            <td style="height: 20px">
+                                <table>
+                                    <tr>
+                                        <td style="width:15px">
+                                            <a href="tel:0981916554" style="width:15px;height: 15px;">
+                                                <div id="phone_icon"></div>
+                                            </a>
+                                        </td>
+                                        <td style="width:8px">
+                                        </td>
+                                        <td>
+                                            <a style="font-size: small;color: rgb(159, 247, 218);"
+                                                href="tel:0981916554">
+                                                0981916554
+                                            </a>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="space_info" style="height: 4px;"></td>
+                        </tr>
+                        <tr>
+                            <td class="space_info"></td>
+                            <td id="majors" style="font-size: 14px;height: 14px;">Economic Mathematics
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="space_info" style="height: 1px;"></td>
+                        </tr>
+                        <tr>
+                            <td class="space_info"></td>
+                            <td style="font-size: 12px;height: 12px;">University of Economics and Law</td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+    </div>
+</body>
+
+</html>
